@@ -1,0 +1,51 @@
+/* Stile per i link */
+a {
+    font-family: "DIN Next LT W04", sans-serif; /* Cambia il font dei link */
+    font-size: 18px; /* Imposta la dimensione del font */
+    color: #C7C7CA; /* Cambia il colore del testo dei link */
+    text-decoration: none; /* Rimuove il sottolineato dei link */
+}
+
+/* Stile per i link quando vengono passati sopra con il mouse */
+a:hover {
+    text-decoration: none; /* Aggiunge un sottolineato al passaggio del mouse */
+    color: #03DDBD; /* Cambia il colore del testo dei link al passaggio del mouse */
+}
+
+nav ul {
+    list-style-type: none; /* Rimuove i punti dall'elenco */
+    padding: 10px;
+    margin: 10px;
+    display: flex; /* Utilizza il flexbox per il layout */
+}
+
+nav ul li {
+    margin-right: 10px; /* Aggiunge spazio tra gli elementi dell'elenco */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Rimuove il margine dell'ultimo elemento dell'elenco */
+}
+
+/* Stile header */
+header {
+    display: flex; /* Utilizza il flexbox per il layout */
+    align-items: center; /* Centra verticalmente il contenuto */
+    justify-content: space-between; /* Distribuisce gli elementi orizzontalmente */
+}
+
+/* Stile per la pagina */
+body {
+    background-color: #1A1C28; /* Cambia il colore di sfondo della pagina */
+    background-attachment: fixed;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #C7C7CA;
+}

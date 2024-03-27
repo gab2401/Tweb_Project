@@ -1,0 +1,52 @@
+/* Stile sezione login */
+.container {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente il contenuto */
+    align-items: center; /* Centra verticalmente il contenuto */
+    height: 100vh; /* Imposta l'altezza al 100% della viewport */
+}
+
+#login {
+    width: 300px; /* Imposta la larghezza del modulo di login */
+    padding: 20px; /* Aggiunge spazio interno al riquadro */
+    border: 1px solid #1A1C28; /* Aggiunge un bordo al riquadro */
+    border-radius: 8px; /* Arrotonda gli angoli del riquadro */
+    background-color: #1A1C28; /* Imposta lo sfondo del riquadro a nero */
+    color: #C7C7CA; /* Imposta il colore del testo a bianco */
+    text-align: center; /* Centra il testo all'interno del riquadro */
+}
+
+/* Stile per le etichette dei campi di input */
+#login label {
+    display: block; /* Rende le etichette blocco per allinearle correttamente */
+    margin-bottom: 10px; /* Aggiunge spazio sotto le etichette */
+    color: #C7C7CA; /* Imposta il colore del testo a bianco */
+}
+
+#login input[type="email"],
+#login input[type="text"],
+#login input[type="password"] {
+    width: calc(100% - 20px); /* Imposta la larghezza dell'input per occupare tutto lo spazio disponibile, sottraendo il padding */
+    padding: 5px; /* Aggiunge spazio interno all'input */
+    margin-bottom: 10px; /* Aggiunge spazio sotto l'input */
+}
+
+#login button {
+    width: 100%; /* Imposta la larghezza del pulsante per occupare tutto lo spazio disponibile */
+    padding: 10px; /* Aggiunge spazio interno al pulsante */
+    margin-top: 10px; /* Aggiunge spazio sopra il pulsante */
+}
+
+input,button{
+    background-color: #C7C7CA;
+}
+
+/* Stile body */
+body {
+    background-image: url("../img/Background1.png");
+    background-size: cover; /* Imposta la dimensione dell'immagine per coprire l'intera area */
+    background-position: center; /* Posiziona l'immagine al centro */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-attachment: fixed;
+    overflow: hidden;
+}
